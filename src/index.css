@@ -1,0 +1,131 @@
+html {
+  margin: 0;
+}
+
+body {
+  font-family: Poppins, Times;
+  margin: 0;
+  padding-left: 0;
+}
+
+nav {
+  height: 100px;
+  background-color: #FFF7ED;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  text-decoration: none;
+  margin: 30px;
+  font-weight: 700;
+  font-size: 28px;
+  color: black;
+}
+
+.nav-link {
+  margin: 15px;
+  text-decoration: none;
+  color: #4D4D4D;
+}
+
+.home-container {
+  position: relative;
+  margin: 0px;
+  background-color: #252525;
+}
+
+.home-page-content {
+  position: absolute;
+  width: 90%;
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start;
+  align-items: center;
+  top: 8px;
+  color: white;
+  margin: 35px;
+}
+
+.home-image {
+  object-fit: cover;
+  width: 100%;
+  height: 650px;
+  filter: brightness(50%)
+}
+
+.about-image {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+
+.find-your-van-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: center;
+  font-weight: bold;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(241, 157, 0);
+  width: 100%;
+  cursor: pointer;
+  text-decoration: none;
+  height: 60px;
+  margin-top: 30px;
+}
+
+/* .find-your-van-button {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(241, 157, 0);
+  height: 60px;
+  /* left: 10px;
+  right: -10px; */
+  /* margin-top: 60px;
+  cursor: pointer;
+} */ 
+
+footer {
+  color: white;
+  background-color: #252525;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -10px;
+}
+
+.about-page {
+  background-color: #FFF7ED;
+  color: black;
+  margin: 0px;
+}
+
+.about-page-content {  
+  margin: 35px;
+}
+
+.about-box {
+  background-color: #f4c489;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.about-page-explore-vans-button {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
